@@ -3,9 +3,9 @@ import FaPencil from 'react-icons/lib/fa/pencil';
 import FaTrash from 'react-icons/lib/fa/trash';
 import FaFloppyO from 'react-icons/lib/fa/floppy-o';
 // import logo from './logo.svg';
-import './App.css';
+import './Note.css';
 // const welcome="Welcome  React";
-class App extends Component {
+class Note extends Component {
 constructor(props){
   super(props)
 this.state={
@@ -18,32 +18,64 @@ this.state={
   this.renderForm=this.renderForm.bind(this)
   this.renderDisplay=this.renderDisplay.bind(this)
 }
-save(){
-  alert('saved')
+
+componentWillMount(){
+  this.style={
+    right: this.randomBetween(0,window.innerWidth-150,'px'),
+    top: this.randomBetween(0,window.innerHeight-150,'px'),
+    transform: `rotate(${this.randomBetween(-25,25,'deg')})`
+  }
 }
 
-  edit(){
+save(e){
+  e.preventDefault()
+  this.props.onChange(this.newText.value, this.props.index)
+  this.setState({
+    editing: false
+  })
+}
+
+randomBetween(x,y,s){
+  return  x + Math.ceil( Math.random() * (y-x)) + s
+}
+
+componentDidUpdate(){
+  var textArea
+  if(this.state.editing){
+    textArea=this.newText
+    textArea.focus()
+    textArea.select()
+  }
+}
+
+shouldComponentUpdate(nextProps, nextState){
+  return (
+    this.props.children!==nextProps.children||this.state!==nextState
+  )
+}
+
+edit(){
   this.setState({
     editing:true
   })
 } 
 remove(){
-  alert('removing note')
+  this.props.onRemove(this.props.index)
 } 
 renderForm(){
   return(
-    <div className="note">
-    <form>
-      <textarea />
-       <button onClick={this.save}><FaFloppyO /> </button>
+    <div className="note" style={this.style}>
+    <form onSubmit={this.save}>
+      <textarea ref={input =>this.newText= input} defaultValue={this.props.children} />
+       <button><FaFloppyO /> </button>
     </form>
     </div>
   )
 }
 renderDisplay() {
     return (
-  <div className="note">
-  <p>Learn React</p>
+  <div className="note" style={this.style}>
+  <p>{this.props.children}</p>
   <span>
   <button onClick={this.edit} id='edit'><FaPencil /></button>
   <button onClick={this.remove} id='remove'><FaTrash /></button>
@@ -87,4 +119,4 @@ render() {
 //   </h1>
 // )
 
-export default App;
+export default Note;

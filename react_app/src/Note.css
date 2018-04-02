@@ -1,6 +1,12 @@
+body{
+  margin:0;
+  padding:0;
+}
 .note{
+  border: 2px solid gold;
+  margin: 5px 0;
   display:flex;
-  position: relative;
+  position: absolute;
   height:200px;
   width:200px;
   background: yellow;
@@ -20,6 +26,12 @@ span{
 #remove{
   flex:1;
   background:red;
+}
+.board{
+  height: 900px;
+  background:rgb(200,100,180);
+  margin: 5px 0; 
+  padding: 2px 0;
 }
 
 
