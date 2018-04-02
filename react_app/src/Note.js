@@ -72,7 +72,7 @@ renderForm(){
     </div>
   )
 }
-renderDisplay() {
+renderDisplay() { 
     return (
   <div className="note" style={this.style}>
   <p>{this.props.children}</p>
