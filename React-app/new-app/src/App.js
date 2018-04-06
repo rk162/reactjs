@@ -33,7 +33,7 @@ const list=[
   }
 ]
 
-class LoginControl extends React.Component {
+class LoginControl extends Component {
   constructor(props) {
     super(props);
     this.handleLoginClick = this.handleLoginClick.bind(this);
@@ -145,7 +145,7 @@ class Toggle extends Component {
     return (
       <div>
       <button onClick={this.handleClock}>
-        {this.state.isToggleOn ? this.handleClick() : this.handleChange()}start/stop
+        {this.state.isToggleOn ? (this.handleClick()) : (this.handleChange())}start/stop
       </button>
       <div> 
       <h2>It is {this.state.date.toLocaleTimeString()}.</h2>
@@ -153,6 +153,90 @@ class Toggle extends Component {
       </div>
     );
   }
+}
+
+class Form extends Component{
+  constructor(props){
+    super(props);
+    this.state={
+      username: '',
+      password: '',
+      checkbox: true,
+      option: 'coconut'
+    }
+  this.handleChange=this.handleChange.bind(this);
+  this.handleSubmit=this.handleSubmit.bind(this);
+  this.handleLink=this.handleLink.bind(this);
+}
+canBeSubmitted(){
+  const {username,password}= this.state;
+ return (
+   username.length>0 && password.length>0
+ )
+}
+handleChange(event){
+  const target=event.target;
+  const value= target.type==='text'?target.value.toUpperCase():(target.type==='checkbox'?target.checked:target.value);
+  const name= target.name;
+  this.setState({
+   [name]:value
+  });
+}
+handleSubmit(event){
+  alert('Logged in with username: '+this.state.username+' and password: '+this.state.password);
+  console.log('A name was submitted '+this.input.value);
+  console.log('You selected '+this.state.option);
+  event.preventDefault();
+  if(!this.canBeSubmitted){
+  return;
+  }
+}
+handleLink(event){
+  alert('Forwarding to Forgot Password page...');
+  event.preventDefault();
+}
+render(){
+  const isEnabled= this.canBeSubmitted();
+  return(
+    <form onSubmit={this.handleSubmit}>
+    <div>
+      <label>Enter your Username:
+      <input type="text" name="username" value={this.state.username} onChange={this.handleChange} />
+      </label>
+      </div>
+     <div>
+      <label>Enter your Password:
+      <input type="password" name="password" value={this.state.password} onChange={this.handleChange} />
+      </label>
+      </div>
+      <div>
+      <label>Remember Me
+      <input type="checkbox" name="checkbox" checked={this.state.checkbox} onChange={this.handleChange} />
+      </label>
+      <span>     
+        <a href='' onClick={this.handleLink}>Forgot Password</a>
+      </span>
+      </div>
+      <div>
+        <label>Uncontrolled Input
+        <input type="text" ref={(input)=> this.input=input} />
+        </label>
+        <span>
+        <label>
+          Pick your favorite chocolate flavor:
+          <select name="option" value={this.state.option} onChange={this.handleChange}>
+            <option value="grapefruit">Grapefruit</option>
+            <option value="lime">Lime</option>
+            <option value="coconut">Coconut</option>
+            <option value="mango">Mango</option>
+          </select>
+        </label>
+        </span>
+      </div>
+      <input type= "submit" disabled={!isEnabled} value="Login" />
+    </form>
+  )
+}
 }
 
 class App extends Component {
@@ -180,6 +264,7 @@ class App extends Component {
       <br/>
       {getGreeting(user)}
       <LoginControl />
+      <Form />
       <Toggle />
       {array.push('one','two')}
       <p>{array}</p>
