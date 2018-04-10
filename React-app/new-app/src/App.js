@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+//import { AxiosProvider, Request, Get, Delete, Head, Post, Put, Patch, withAxios } from 'react-axios';
+import axios from 'axios';
 import './App.css';
 
 function formatName(user){
@@ -331,6 +333,45 @@ class Calculator extends Component{
     )
   }
 }
+
+class UserCompany extends Component{
+  state={
+    company:undefined,
+  }
+  componentDidMount(){
+      axios({
+        url: 'https://api.github.com/graphql',
+        method:'post',
+        data: {
+          query: `{
+            user(login: "$(this.props.username)") { company }    
+          }`,
+        },
+        headers:{Authorization: `bearer 3ae09c9b830fbd1ad061ece0a0a4d6e87510e24b`},
+      }).then(response=>{
+        this.setState({
+          company: response.data.data.user.company,
+        })
+      })
+  }
+  render(){
+    return this.state.company || 'Unknown'
+  }
+}
+
+const username= 'rk162'
+class Element extends Component{
+  render(){
+    return (
+      <div>
+      <div>
+       {`  @${username} works at `}
+      <UserCompany username={username} />
+      </div>
+    </div>
+    )
+  }
+}
 class App extends Component {
   render() {
    const numbers=[1,2,3,4,5];
@@ -354,10 +395,12 @@ class App extends Component {
       <h2>{helloworld}</h2>
       <p>Welcome {formatName(user)}!</p>
       <br/>
+      <Element />
       {getGreeting(user)}
       <LoginControl />
       <Form />
       <Calculator />
+      
       <Toggle />
       {array.push('one','two')}
       <p>{array}</p>
