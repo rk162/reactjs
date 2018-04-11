@@ -1,5 +1,5 @@
 // For this demo, we are using the UMD build of react-router-dom
-import React from 'react';
+import React, {Component} from 'react';
 import ReactDOM from 'react-dom'; 
 import  {
     HashRouter,
@@ -94,15 +94,21 @@ import  {
   // and /schedule routes will match any pathname that starts
   // with /roster or /schedule. The / route will only match
   // when the pathname is exactly the string "/"
-  const Main = () => (
-    <main>
-      <Switch>
-        <Route exact path='/' component={Home}/>
-        <Route path='/roster' component={Roster}/>
-        <Route path='/schedule' component={Schedule}/>
-      </Switch>
-    </main>
-  )
+  class Main extends Component{
+    render(){
+      return (
+        <main>
+        <Switch>
+          <Route exact path='/' component={Home}/>
+          <Route path='/roster' component={Roster}/>
+          <Route path='/schedule' component={Schedule}/>
+        </Switch>
+      </main>
+      )
+    }
+  }
+   
+ 
   
   // The Header creates links that can be used to navigate
   // between routes.
