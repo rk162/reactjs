@@ -103,6 +103,7 @@ import  {
           <Route path='/roster' component={Roster}/>
           <Route path='/schedule' component={Schedule}/>
         </Switch>
+        
       </main>
       )
     }
@@ -123,13 +124,55 @@ import  {
       </nav>
     </header>
   )
+
+   
+
   
-  const App = () => (
-    <div>
+  handleUserChange= function(){
+    this.userKey = $(e.target).val();
+         if(userKey){
+               var userRef= usersRef.child(userKey);
+               userRef.on('value',function(snap){
+                 setTweetBox(snap.val());
+               })
+         } else {
+           setTweetBox();
+           setTimeLine();
+           setFollowing();
+         }
+       }
+  class App extends Component(){
+    constructor(props){
+      super(props);
+      this.firebaseRoot = "https://twitterclone-f28e9.firebaseio.com/twitterclone-f28e9";
+     this.usersRef= new firebaseRoot(firebaseRoot+ 'users');
+   this.usersRef.on('value',function(snap){
+    setUsers(snap.val());
+  })
+  this.handleUserChange= this.handleUserChange.bind(this);
+}
+
+    render(){
+      return (
+     <div>
       <Header />
       <Main />
+      <div>
+        <ul>
+          Users: 
+          <li>
+              
+          </li>
+          <li>
+
+          </li>
+        </ul>
+      </div>
     </div>
-  )
+      )
+    }
+  }
+
   
   // This demo uses a HashRouter instead of BrowserRouter
   // because there is no server to match URLs
