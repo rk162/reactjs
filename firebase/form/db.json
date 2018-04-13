@@ -1,0 +1,2508 @@
+
+{
+    "login":  [{
+        "userid": 12010,
+        "usertype": "S",
+        "username": "Irene4",
+        "emailId": "Irene10@sapient.com",
+        "password": "zMSi&ETL6J"
+      },
+      {
+        "userid": 12209,
+        "usertype": "S",
+        "username": "Rosann1",
+        "emailId": "Rosann8@sapient.com",
+        "password": "gd_@JRhBfP"
+      },
+      {
+        "userid": 12310,
+        "usertype": "S",
+        "username": "Hannelore07",
+        "emailId": "Hanne105@sapient.com",
+        "password": "o&vhUtxwFi"
+      },
+      {
+        "userid": 12361,
+        "usertype": "S",
+        "username": "Alix5",
+        "emailId": "ahopper10@sapient.com",
+        "password": "Jv@$RYsvmu"
+      },
+      {
+        "userid": 12611,
+        "usertype": "S",
+        "username": "Marvella8",
+        "emailId": "Marvella23@sapient.com",
+        "password": "chSl&WhWUr"
+      },
+      {
+        "userid": 12056,
+        "usertype": "S",
+        "username": "Dulce2",
+        "emailId": "dulce11@sapient.com",
+        "password": "DG5_4IFxQO"
+      },
+      {
+        "userid": 12710,
+        "usertype": "S",
+        "username": "Tennille31",
+        "emailId": "tbyers40@sapient.com",
+        "password": "kIR@0aXn"
+      },
+      {
+        "userid": 11972,
+        "usertype": "S",
+        "username": "Christensen",
+        "emailId": "christensen12@sapient.com",
+        "password": "YdnY5HSt&w"
+      },
+      {
+        "userid": 12723,
+        "usertype": "S",
+        "username": "Ileen6",
+        "emailId": "igrimes28@sapient.com",
+        "password": "p8rHVQvrg!"
+      },
+       {
+        "userid": 12430,
+        "usertype": "S",
+        "username": "Barb45",
+        "emailId": "barb92@sapient.com",
+        "password": "vSETK#03"
+      },
+      
+      {
+        "userid": 11290,
+        "usertype": "SU",
+        "username": "Hugh01",
+        "emailId": "hrinker43@sapient.com",
+        "password": "wwd18_@5"
+      }
+    ],
+  
+    "supervisors": [
+      {
+        "firstname": "Irene",
+        "lastname": "Denver",
+        "id": 12010,
+        "emailId": "Irene10@sapient.com",
+      "role": "senior associate-SN",
+      "subordinates":[13072,13053,13109,13110,13156,13128,13256,13209,13229,13330],
+      "seating": "Seat #32, 4th floor, Nitro Bench Area",
+      "image":"https://i.lensdump.com/i/PmZy5.jpg"
+      },
+      {
+        "firstname": "Rosann",
+        "lastname": "Rose",
+        "id": 12209,
+        "emailId": "Rosann8@sapient.com",
+      "role": "senior associate-GM",
+      "subordinates":[13320,13430,13410,13459,13456,13574,13572,13573,13671,13681],
+      "seating": "Seat #87, 7th floor, GM Bench Area",
+      "image":"https://i.lensdump.com/i/Pm0Qv.jpg"
+      },
+      {
+        "firstname": "Hannelore",
+        "lastname": "Ledgerwood",
+        "id": 12310,
+        "emailId": "Hanne105@sapient.com",
+      "role": "senior associate-GM",
+      "subordinates":[13610,13719,13710,13700,13741,13770,13723,13982,13961,13930],
+      "seating": "Seat #43, 7th floor, GM Bench Area",
+      "image":"https://i.lensdump.com/i/PmInC.jpg"
+      },
+      {
+        "firstname": "Alix",
+        "lastname": "Hopper",
+        "id": 12361,
+        "emailId": "ahopper10@sapient.com",
+      "role": "senior associate-SN",
+      "subordinates":[13072,13053,13109,13110,13156,13128,13256,13209,13229,13330],
+      "seating": "Seat #15, 4th floor, Nitro Bench Area",
+      "image":"https://i.lensdump.com/i/PmjA2.jpg"
+      },
+      {
+        "firstname": "Marvella",
+        "lastname": "Frisk",
+        "id": 12611,
+        "emailId": "Marvella23@sapient.com",
+      "role": "senior associate-GM",
+      "subordinates":[13320,13430,13410,13459,13456,13574,13572,13573,13671,13681],
+      "seating": "Seat #44, 5th floor, GM Bench Area",
+      "image":"https://i.lensdump.com/i/PmAmo.jpg"
+      },
+      {
+        "firstname": "Dulce",
+        "lastname": "Carrithers",
+        "id": 12056,
+        "emailId": "dulce11@sapient.com",
+      "role": "senior associate-SN",
+      "subordinates":[13610,13719,13710,13700,13741,13770,13723,13982,13961,13930],
+      "seating": "Seat #72, 4th floor, Nitro Bench Area",
+      "image":"https://i.lensdump.com/i/PmWu9.jpg"
+      },
+    {
+        "firstname": "Tennille",
+        "lastname": "Byers",
+        "id": 12710,
+        "emailId": "tbyers40@sapient.com",
+      "role": "senior associate-SN",
+      "subordinates":[13072,13053,13109,13110,13156,13128,13256,13209,13229,13330],
+      "seating": "Seat #61, 8th floor, Nitro Bench Area",
+      "image":"https://i.lensdump.com/i/PBhUm.jpg"
+      },
+    {
+        "firstname": "Christensen",
+        "lastname": "Wheeler",
+        "id": 11972,
+        "emailId": "christensen12@sapient.com",
+      "role": "senior associate-SN",
+      "subordinates":[13320,13430,13410,13459,13456,13574,13572,13573,13671,13681],
+      "seating": "Seat #65, 4th floor, Nitro Bench Area",
+      "image":"https://i.lensdump.com/i/PBa7P.jpg"
+      },
+    {
+        "firstname": "Ileen",
+        "lastname": "Grimes",
+        "id": 12723,
+        "emailId": "igrimes28@sapient.com",
+      "role": "senior associate-GM",
+      "subordinates":[13610,13719,13710,13700,13741,13770,13723,13982,13961,13930],
+      "seating": "Seat #27, 5th floor, GM Bench Area",
+      "image":"https://i.lensdump.com/i/Pm8Zi.jpg"
+      },
+    {
+        "firstname": "Barb",
+        "lastname": "Ivy",
+        "id": 12430,
+        "emailId": "barb92@sapient.com",
+      "role": "senior associate-GM",
+      "subordinates":[13072,13053,13109,13110,13156,13128,13256,13209,13229,13330],
+      "seating": "Seat #12, 7th floor, GM Bench Area",
+      "image":"https://i.lensdump.com/i/PBGTZ.jpg"
+      }],
+    
+    "superusers": 
+      [{
+        "firstname": "Hugh",
+        "lastname": "Rinker",
+        "id": 11290,
+        "emailId": "hrinker43@sapient.com",
+      "role": "specialist-SN",
+      "subordinates": [12010,12209,12056,12310,12361,12430,12611,12710,12723,11972],
+      "seating": "Seat #07, 4th floor, Nitro Bench Area",
+      "image":"https://i.lensdump.com/i/PByyK.jpg"
+      }],
+    
+    "supervisees": [
+      {
+        "firstname": "Melisa",
+        "lastname": "Kalis",
+        "id": 13574,
+        "emailId": "mkalis@sapient.com",
+      "role": "Junior associate-SN",
+      "seating": "Seat #32, 9th floor, Nitro Bench Area",
+      "image":"https://i.lensdump.com/i/Pm0Qv.jpg"
+      },
+      {
+        "firstname": "Noble ",
+        "lastname": "Hurlbert",
+        "id": 13128,
+        "emailId": "noble43@sapient.com",
+      "role": "junior associate-GM",
+      "seating": "Seat #87, 10th floor, GM Bench Area",
+      "image":"https://i.lensdump.com/i/PmZy5.jpg"
+      },
+      {
+        "firstname": "Kary",
+        "lastname": "Mullings",
+        "id": 13109,
+        "emailId": "kary912@sapient.com",
+      "role": "junior associate-GM",
+      "seating": "Seat #43, 10th floor, GM Bench Area",
+      "image":"https://i.lensdump.com/i/PmjA2.jpg"
+      },
+      {
+        "firstname": "Phyliss Burrell",
+        "lastname": "Burrell",
+        "id": 13671,
+        "emailId": "phyliss21@sapient.com",
+      "role": "junior associate-SN",
+      "seating": "Seat #15, 9th floor, Nitro Bench Area",
+      "image":"https://i.lensdump.com/i/PmInC.jpg"
+      },
+      {
+        "firstname": "Olin ",
+        "lastname": "Jensen",
+        "id": 13681,
+        "emailId": "Marvella23@sapient.com",
+      "role": "senior associate-GM",
+      "seating": "Seat #44, 5th floor, GM Bench Area",
+      "image":"https://i.lensdump.com/i/PmAmo.jpg"
+      },
+      {
+        "firstname": "Genesis",
+        "lastname": "Soja",
+        "id": 13256,
+        "emailId": "gsoja56@sapient.com",
+      "role": "junior associate-SN",
+      "seating": "Seat #12, 9th floor, Nitro Bench Area",
+      "image":"https://i.lensdump.com/i/PBhUm.jpg"
+      },
+    {
+        "firstname": "Waylon",
+        "lastname": "Coldren",
+        "id": 13719,
+        "emailId": "waylon40@sapient.com",
+      "role": "junior associate-SN",
+      "seating": "Seat #81, 9th floor, Nitro Bench Area",
+      "image":"https://i.lensdump.com/i/PmWu9.jpg"
+      },
+    {
+        "firstname": "Louie Oshea",
+        "lastname": "Oshea",
+        "id": 13572,
+        "emailId": "louie12@sapient.com",
+      "role": "junior associate-SN",
+      "seating": "Seat #56, 9th floor, Nitro Bench Area",
+      "image":"https://i.lensdump.com/i/Pm8Zi.jpg"
+      },
+    {
+        "firstname": "Eric",
+        "lastname": "Saint",
+        "id": 13053,
+        "emailId": "eric28@sapient.com",
+      "role": "junior associate-GM",
+      "seating": "Seat #07, 10th floor, GM Bench Area",
+      "image":"https://i.lensdump.com/i/PBa7P.jpg"
+      },
+    {
+        "firstname": "Andres",
+        "lastname": "Newbill",
+        "id": 13330,
+        "emailId": "andres92@sapient.com",
+      "role": "junior associate-GM",
+      "seating": "Seat #92, 10th floor, GM Bench Area",
+      "image":"https://i.lensdump.com/i/PBGTZ.jpg"
+      },
+    {
+        "firstname": "Jaqueline",
+        "lastname": "Galland",
+        "id": 13573,
+        "emailId": "jaq10@sapient.com",
+      "role": "junior associate-SN",
+      "seating": "Seat #23, 9th floor, Nitro Bench Area",
+      "image":"https://i.lensdump.com/i/Pm0Qv.jpg"
+      },
+      {
+        "firstname": "Emanuel",
+        "lastname": "Ipock",
+        "id": 13209,
+        "emailId": "emanuel8@sapient.com",
+      "role": "junior associate-GM",
+      "seating": "Seat #47, 10th floor, GM Bench Area",
+      "image":"https://i.lensdump.com/i/FJn2c.jpg"
+      },
+      {
+        "firstname": "Freida",
+        "lastname": "Jagger",
+        "id": 13110,
+        "emailId": "fjagger105@sapient.com",
+      "role": "junior associate-GM",
+      "seating": "Seat #03, 10th floor, GM Bench Area",
+      "image":"https://i.lensdump.com/i/FJzBH.jpg"
+      },
+      {
+        "firstname": "Catrina",
+        "lastname": "Hopper",
+        "id": 13610,
+        "emailId": "catrina10@sapient.com",
+      "role": "junior associate-SN",
+      "seating": "Seat #25, 9th floor, Nitro Bench Area",
+      "image":"https://i.lensdump.com/i/FJl0x.png"
+      },
+      {
+        "firstname": "Marvella",
+        "lastname": "Symonds",
+        "id": 13229,
+        "emailId": "Msymonds23@sapient.com",
+      "role": "junior associate-GM",
+      "seating": "Seat #84, 10th floor, GM Bench Area",
+      "image":"https://i.lensdump.com/i/FJOFk.jpg"
+      },
+      {
+        "firstname": "Teri",
+        "lastname": "Voss",
+        "id": 13156,
+        "emailId": "tvoss11@sapient.com",
+      "role": "junior associate-SN",
+      "seating": "Seat #12, 9th floor, Nitro Bench Area",
+      "image":"https://i.lensdump.com/i/FJSo1.jpg"
+      },
+    {
+        "firstname": "Arlena",
+        "lastname": "Byers",
+        "id": 13710,
+        "emailId": "arlena40@sapient.com",
+      "role": "junior associate-SN",
+      "seating": "Seat #61, 9th floor, Nitro Bench Area",
+      "image":"https://i.lensdump.com/i/FJ4xQ.jpg"
+      },
+    {
+        "firstname": "Rosalina",
+        "lastname": "Finnen",
+        "id": 13982,
+        "emailId": "rosalina12@sapient.com",
+      "role": "junior associate-SN",
+      "seating": "Seat #75, 9th floor, Nitro Bench Area",
+      "image":"https://i.lensdump.com/i/FJqYD.jpg"
+      },
+    {
+        "firstname": "Janise",
+        "lastname": "Freels",
+        "id": 13700,
+        "emailId": "janise28@sapient.com",
+      "role": "junior associate-GM",
+      "seating": "Seat #91, 10th floor, GM Bench Area",
+      "image":"https://i.lensdump.com/i/FJ903.jpg"
+      },
+    {
+        "firstname": "Wynell",
+        "lastname": "Higgs",
+        "id": 13430,
+        "emailId": "whiggs92@sapient.com",
+      "role": "junior associate-GM",
+      "seating": "Seat #76, 10th floor, GM Bench Area",
+      "image":"https://i.lensdump.com/i/FJdB0.jpg"
+      },
+    {
+        "firstname": "Cyrstal",
+        "lastname": "Thach",
+        "id": 13410,
+        "emailId": "crystal10@sapient.com",
+      "role": "junior associate-SN",
+      "seating": "Seat #52, 9th floor, Nitro Bench Area",
+      "image":"https://i.lensdump.com/i/FJm2q.jpg"
+      },
+      {
+        "firstname": "Meghan",
+        "lastname": "Wildman",
+        "id": 13459,
+        "emailId": "mwildman8@sapient.com",
+      "role": "junior associate-GM",
+      "seating": "Seat #39, 10th floor, GM Bench Area",
+      "image":"https://i.lensdump.com/i/FJJpr.jpg"
+      },
+      {
+        "firstname": "Lorette",
+        "lastname": "Floyd",
+        "id": 13320,
+        "emailId": "lfloyd5@sapient.com",
+      "role": "junior associate-GM",
+      "seating": "Seat #86, 10th floor, GM Bench Area",
+      "image":"https://i.lensdump.com/i/FJsJA.jpg"
+      },
+      {
+        "firstname": "Ivory",
+        "lastname": "Hopper",
+        "id": 13961,
+        "emailId": "ivory10@sapient.com",
+      "role": "junior associate-SN",
+      "seating": "Seat #85, 9th floor, Nitro Bench Area",
+      "image":"https://i.lensdump.com/i/FJ7pe.jpg"
+      },
+      {
+        "firstname": "Leila",
+        "lastname": "Corlett",
+        "id": 13741,
+        "emailId": "leila23@sapient.com",
+      "role": "junior associate-GM",
+      "seating": "Seat #44, 10th floor, GM Bench Area",
+      "image":"https://i.lensdump.com/i/FJC17.jpg"
+      },
+      {
+        "firstname": "Vernice",
+        "lastname": "Fox",
+        "id": 13456,
+        "emailId": "vfox@sapient.com",
+      "role": "junior associate-SN",
+      "seating": "Seat #60, 9th floor, Nitro Bench Area",
+      "image":"https://i.lensdump.com/i/FJkwb.jpg"
+      },
+    {
+        "firstname": "Janel",
+        "lastname": "Rowell",
+        "id": 13770,
+        "emailId": "jrowell40@sapient.com",
+      "role": "junior associate-SN",
+      "seating": "Seat #49, 9th floor, Nitro Bench Area",
+      "image":"https://i.lensdump.com/i/FJQfF.jpg"
+      },
+    {
+        "firstname": "Danyelle",
+        "lastname": "Isabelle",
+        "id": 13072,
+        "emailId": "danyelle12@sapient.com",
+      "role": "junior associate-SN",
+      "seating": "Seat #22, 9th floor, Nitro Bench Area",
+      "image":"https://i.lensdump.com/i/FJTCz.png"
+      },
+    {
+        "firstname": "Elissa",
+        "lastname": "Borth",
+        "id": 13723,
+        "emailId": "eborth8@sapient.com",
+      "role": "junior associate-GM",
+      "seating": "Seat #17, 10th floor, GM Bench Area",
+      "image":"https://i.lensdump.com/i/FJEST.png"
+      },
+    {
+        "firstname": "Irwin",
+        "lastname": "Ivy",
+        "id": 13930,
+        "emailId": "irwin92@sapient.com",
+      "role": "junior associate-GM",
+      "seating": "Seat #42, 10th floor, GM Bench Area",
+      "image":"https://i.lensdump.com/i/FJp1a.jpg"
+      }],
+  
+  "12010" : [{
+              "primarySkill": [{
+                              "HTML": [   {"subSkill":"Local storage",
+                                          "rating":2},
+                                          {"subSkill":"Session storage",
+                                          "rating":4},
+                                          {"subSkill":"File APIs",
+                                          "rating":3}
+                                      ],
+                                      
+                              "CSS": [    {"subSkill":"Media queries",
+                                          "rating":5},
+                                          {"subSkill":"Responsive",
+                                          "rating":2.5}
+                                      ],
+                              "JAVASCRIPT": [{"subSkill":"Dom Manipulation",
+                                              "rating":3.5},
+                                             {"subSkill":"Ajax",
+                                               "rating":4},
+                                             {"subSkill":"Json",
+                                              "rating":3}
+                                             ] 
+                                            }],
+                              
+              "secondarySkill": [{
+                              "FRAMEWORK": [{"subSkill":"Linear Scripting",
+                                            "rating": 4},
+                                            {"subSkill":"Modular Testing",
+                                            "rating":3},
+                                            {"subSkill":"Keyword Driven Testing",
+                                            "rating":2.5}
+                                            ],
+                              "GOOGLE_APIs": [{"subSkill":"Static Maps",
+                                              "rating":4},
+                                              {"subSkill":"Google Places",
+                                               "rating":3},
+                                              {"subSkill":"Google Earth",
+                                               "rating":4.5}
+                                             ],
+                              "SOFTWARE_DESIGNING": [{"subSkill":"Service-oriented architecture",
+                                                     "rating":5},
+                                                     {"subSkill":"Software development cycle",
+                                                      "rating":4}],
+                              "COMMUNICATION": [{"subSkill":"Active Listener",
+                                                "rating":3.5},
+                                                {"subSkill":"Positive Thinking",
+                                                 "rating":4.5}
+                                               ]
+                              }]
+            }],
+            
+  "12209" : [{
+              "primarySkill": [{
+                              "HTML": [   {"subSkill":"Local storage",
+                                          "rating":2},
+                                          {"subSkill":"Session storage",
+                                          "rating":4},
+                                          {"subSkill":"File APIs",
+                                          "rating":3}
+                                      ],
+                                      
+                              "CSS": [    {"subSkill":"Media queries",
+                                          "rating":5},
+                                          {"subSkill":"Responsive",
+                                          "rating":2.5}
+                                      ],
+                              "JAVASCRIPT": [{"subSkill":"Dom Manipulation",
+                                              "rating":3.5},
+                                             {"subSkill":"Ajax",
+                                               "rating":4},
+                                             {"subSkill":"Json",
+                                              "rating":3}
+                                             ] 
+                                            }],
+                              
+              "secondarySkill": [{
+                              "FRAMEWORK": [{"subSkill":"Linear Scripting",
+                                            "rating": 4},
+                                            {"subSkill":"Modular Testing",
+                                            "rating":3},
+                                            {"subSkill":"Keyword Driven Testing",
+                                            "rating":2.5}
+                                            ],
+                              "GOOGLE_APIs": [{"subSkill":"Static Maps",
+                                              "rating":4},
+                                              {"subSkill":"Google Places",
+                                               "rating":3},
+                                              {"subSkill":"Google Earth",
+                                               "rating":4.5}
+                                             ],
+                              "SOFTWARE_DESIGNING": [{"subSkill":"Service-oriented architecture",
+                                                     "rating":5},
+                                                     {"subSkill":"Software development cycle",
+                                                      "rating":4}],
+                              "COMMUNICATION": [{"subSkill":"Active Listener",
+                                                "rating":3.5},
+                                                {"subSkill":"Positive Thinking",
+                                                 "rating":4.5}
+                                               ]
+                              }]
+            }],
+            
+  "12310" : [{
+              "primarySkill": [{
+                              "HTML": [   {"subSkill":"Local storage",
+                                          "rating":2},
+                                          {"subSkill":"Session storage",
+                                          "rating":4},
+                                          {"subSkill":"File APIs",
+                                          "rating":3}
+                                      ],
+                                      
+                              "CSS": [    {"subSkill":"Media queries",
+                                          "rating":5},
+                                          {"subSkill":"Responsive",
+                                          "rating":2.5}
+                                      ],
+                              "JAVASCRIPT": [{"subSkill":"Dom Manipulation",
+                                              "rating":3.5},
+                                             {"subSkill":"Ajax",
+                                               "rating":4},
+                                             {"subSkill":"Json",
+                                              "rating":3}
+                                             ] 
+                                            }],
+                              
+              "secondarySkill": [{
+                              "FRAMEWORK": [{"subSkill":"Linear Scripting",
+                                            "rating": 4},
+                                            {"subSkill":"Modular Testing",
+                                            "rating":3},
+                                            {"subSkill":"Keyword Driven Testing",
+                                            "rating":2.5}
+                                            ],
+                              "GOOGLE_APIs": [{"subSkill":"Static Maps",
+                                              "rating":4},
+                                              {"subSkill":"Google Places",
+                                               "rating":3},
+                                              {"subSkill":"Google Earth",
+                                               "rating":4.5}
+                                             ],
+                              "SOFTWARE_DESIGNING": [{"subSkill":"Service-oriented architecture",
+                                                     "rating":5},
+                                                     {"subSkill":"Software development cycle",
+                                                      "rating":4}],
+                              "COMMUNICATION": [{"subSkill":"Active Listener",
+                                                "rating":3.5},
+                                                {"subSkill":"Positive Thinking",
+                                                 "rating":4.5}
+                                               ]
+                              }]
+            }],
+            
+  "12361" : [{
+              "primarySkill": [{
+                              "HTML": [   {"subSkill":"Local storage",
+                                          "rating":2},
+                                          {"subSkill":"Session storage",
+                                          "rating":4},
+                                          {"subSkill":"File APIs",
+                                          "rating":3}
+                                      ],
+                                      
+                              "CSS": [    {"subSkill":"Media queries",
+                                          "rating":5},
+                                          {"subSkill":"Responsive",
+                                          "rating":2.5}
+                                      ],
+                              "JAVASCRIPT": [{"subSkill":"Dom Manipulation",
+                                              "rating":3.5},
+                                             {"subSkill":"Ajax",
+                                               "rating":4},
+                                             {"subSkill":"Json",
+                                              "rating":3}
+                                             ] 
+                                            }],
+                              
+              "secondarySkill": [{
+                              "FRAMEWORK": [{"subSkill":"Linear Scripting",
+                                            "rating": 4},
+                                            {"subSkill":"Modular Testing",
+                                            "rating":3},
+                                            {"subSkill":"Keyword Driven Testing",
+                                            "rating":2.5}
+                                            ],
+                              "GOOGLE_APIs": [{"subSkill":"Static Maps",
+                                              "rating":4},
+                                              {"subSkill":"Google Places",
+                                               "rating":3},
+                                              {"subSkill":"Google Earth",
+                                               "rating":4.5}
+                                             ],
+                              "SOFTWARE_DESIGNING": [{"subSkill":"Service-oriented architecture",
+                                                     "rating":5},
+                                                     {"subSkill":"Software development cycle",
+                                                      "rating":4}],
+                              "COMMUNICATION": [{"subSkill":"Active Listener",
+                                                "rating":3.5},
+                                                {"subSkill":"Positive Thinking",
+                                                 "rating":4.5}
+                                               ]
+                              }]
+            }],
+  
+  "12611" : [{
+              "primarySkill": [{
+                              "HTML": [   {"subSkill":"Local storage",
+                                          "rating":2},
+                                          {"subSkill":"Session storage",
+                                          "rating":4},
+                                          {"subSkill":"File APIs",
+                                          "rating":3}
+                                      ],
+                                      
+                              "CSS": [    {"subSkill":"Media queries",
+                                          "rating":5},
+                                          {"subSkill":"Responsive",
+                                          "rating":2.5}
+                                      ],
+                              "JAVASCRIPT": [{"subSkill":"Dom Manipulation",
+                                              "rating":3.5},
+                                             {"subSkill":"Ajax",
+                                               "rating":4},
+                                             {"subSkill":"Json",
+                                              "rating":3}
+                                             ] 
+                                            }],
+                              
+              "secondarySkill": [{
+                              "FRAMEWORK": [{"subSkill":"Linear Scripting",
+                                            "rating": 4},
+                                            {"subSkill":"Modular Testing",
+                                            "rating":3},
+                                            {"subSkill":"Keyword Driven Testing",
+                                            "rating":2.5}
+                                            ],
+                              "GOOGLE_APIs": [{"subSkill":"Static Maps",
+                                              "rating":4},
+                                              {"subSkill":"Google Places",
+                                               "rating":3},
+                                              {"subSkill":"Google Earth",
+                                               "rating":4.5}
+                                             ],
+                              "SOFTWARE_DESIGNING": [{"subSkill":"Service-oriented architecture",
+                                                     "rating":5},
+                                                     {"subSkill":"Software development cycle",
+                                                      "rating":4}],
+                              "COMMUNICATION": [{"subSkill":"Active Listener",
+                                                "rating":3.5},
+                                                {"subSkill":"Positive Thinking",
+                                                 "rating":4.5}
+                                               ]
+                              }]
+            }],
+            
+  "12056" : [{
+              "primarySkill": [{
+                              "HTML": [   {"subSkill":"Local storage",
+                                          "rating":2},
+                                          {"subSkill":"Session storage",
+                                          "rating":4},
+                                          {"subSkill":"File APIs",
+                                          "rating":3}
+                                      ],
+                                      
+                              "CSS": [    {"subSkill":"Media queries",
+                                          "rating":5},
+                                          {"subSkill":"Responsive",
+                                          "rating":2.5}
+                                      ],
+                              "JAVASCRIPT": [{"subSkill":"Dom Manipulation",
+                                              "rating":3.5},
+                                             {"subSkill":"Ajax",
+                                               "rating":4},
+                                             {"subSkill":"Json",
+                                              "rating":3}
+                                             ] 
+                                            }],
+                              
+              "secondarySkill": [{
+                              "FRAMEWORK": [{"subSkill":"Linear Scripting",
+                                            "rating": 4},
+                                            {"subSkill":"Modular Testing",
+                                            "rating":3},
+                                            {"subSkill":"Keyword Driven Testing",
+                                            "rating":2.5}
+                                            ],
+                              "GOOGLE_APIs": [{"subSkill":"Static Maps",
+                                              "rating":4},
+                                              {"subSkill":"Google Places",
+                                               "rating":3},
+                                              {"subSkill":"Google Earth",
+                                               "rating":4.5}
+                                             ],
+                              "SOFTWARE_DESIGNING": [{"subSkill":"Service-oriented architecture",
+                                                     "rating":5},
+                                                     {"subSkill":"Software development cycle",
+                                                      "rating":4}],
+                              "COMMUNICATION": [{"subSkill":"Active Listener",
+                                                "rating":3.5},
+                                                {"subSkill":"Positive Thinking",
+                                                 "rating":4.5}
+                                               ]
+                              }]
+            }],
+            
+  "12710" : [{
+              "primarySkill": [{
+                              "HTML": [   {"subSkill":"Local storage",
+                                          "rating":2},
+                                          {"subSkill":"Session storage",
+                                          "rating":4},
+                                          {"subSkill":"File APIs",
+                                          "rating":3}
+                                      ],
+                                      
+                              "CSS": [    {"subSkill":"Media queries",
+                                          "rating":5},
+                                          {"subSkill":"Responsive",
+                                          "rating":2.5}
+                                      ],
+                              "JAVASCRIPT": [{"subSkill":"Dom Manipulation",
+                                              "rating":3.5},
+                                             {"subSkill":"Ajax",
+                                               "rating":4},
+                                             {"subSkill":"Json",
+                                              "rating":3}
+                                             ] 
+                                            }],
+                              
+              "secondarySkill": [{
+                              "FRAMEWORK": [{"subSkill":"Linear Scripting",
+                                            "rating": 4},
+                                            {"subSkill":"Modular Testing",
+                                            "rating":3},
+                                            {"subSkill":"Keyword Driven Testing",
+                                            "rating":2.5}
+                                            ],
+                              "GOOGLE_APIs": [{"subSkill":"Static Maps",
+                                              "rating":4},
+                                              {"subSkill":"Google Places",
+                                               "rating":3},
+                                              {"subSkill":"Google Earth",
+                                               "rating":4.5}
+                                             ],
+                              "SOFTWARE_DESIGNING": [{"subSkill":"Service-oriented architecture",
+                                                     "rating":5},
+                                                     {"subSkill":"Software development cycle",
+                                                      "rating":4}],
+                              "COMMUNICATION": [{"subSkill":"Active Listener",
+                                                "rating":3.5},
+                                                {"subSkill":"Positive Thinking",
+                                                 "rating":4.5}
+                                               ]
+                              }]
+            }],
+            
+  "11972" : [{
+              "primarySkill": [{
+                              "HTML": [   {"subSkill":"Local storage",
+                                          "rating":2},
+                                          {"subSkill":"Session storage",
+                                          "rating":4},
+                                          {"subSkill":"File APIs",
+                                          "rating":3}
+                                      ],
+                                      
+                              "CSS": [    {"subSkill":"Media queries",
+                                          "rating":5},
+                                          {"subSkill":"Responsive",
+                                          "rating":2.5}
+                                      ],
+                              "JAVASCRIPT": [{"subSkill":"Dom Manipulation",
+                                              "rating":3.5},
+                                             {"subSkill":"Ajax",
+                                               "rating":4},
+                                             {"subSkill":"Json",
+                                              "rating":3}
+                                             ] 
+                                            }],
+                              
+              "secondarySkill": [{
+                              "FRAMEWORK": [{"subSkill":"Linear Scripting",
+                                            "rating": 4},
+                                            {"subSkill":"Modular Testing",
+                                            "rating":3},
+                                            {"subSkill":"Keyword Driven Testing",
+                                            "rating":2.5}
+                                            ],
+                              "GOOGLE_APIs": [{"subSkill":"Static Maps",
+                                              "rating":4},
+                                              {"subSkill":"Google Places",
+                                               "rating":3},
+                                              {"subSkill":"Google Earth",
+                                               "rating":4.5}
+                                             ],
+                              "SOFTWARE_DESIGNING": [{"subSkill":"Service-oriented architecture",
+                                                     "rating":5},
+                                                     {"subSkill":"Software development cycle",
+                                                      "rating":4}],
+                              "COMMUNICATION": [{"subSkill":"Active Listener",
+                                                "rating":3.5},
+                                                {"subSkill":"Positive Thinking",
+                                                 "rating":4.5}
+                                               ]
+                              }]
+            }],
+            
+  "12723"	: [{
+              "primarySkill": [{
+                              "HTML": [   {"subSkill":"Local storage",
+                                          "rating":2},
+                                          {"subSkill":"Session storage",
+                                          "rating":4},
+                                          {"subSkill":"File APIs",
+                                          "rating":3}
+                                      ],
+                                      
+                              "CSS": [    {"subSkill":"Media queries",
+                                          "rating":5},
+                                          {"subSkill":"Responsive",
+                                          "rating":2.5}
+                                      ],
+                              "JAVASCRIPT": [{"subSkill":"Dom Manipulation",
+                                              "rating":3.5},
+                                             {"subSkill":"Ajax",
+                                               "rating":4},
+                                             {"subSkill":"Json",
+                                              "rating":3}
+                                             ] 
+                                            }],
+                              
+              "secondarySkill": [{
+                              "FRAMEWORK": [{"subSkill":"Linear Scripting",
+                                            "rating": 4},
+                                            {"subSkill":"Modular Testing",
+                                            "rating":3},
+                                            {"subSkill":"Keyword Driven Testing",
+                                            "rating":2.5}
+                                            ],
+                              "GOOGLE_APIs": [{"subSkill":"Static Maps",
+                                              "rating":4},
+                                              {"subSkill":"Google Places",
+                                               "rating":3},
+                                              {"subSkill":"Google Earth",
+                                               "rating":4.5}
+                                             ],
+                              "SOFTWARE_DESIGNING": [{"subSkill":"Service-oriented architecture",
+                                                     "rating":5},
+                                                     {"subSkill":"Software development cycle",
+                                                      "rating":4}],
+                              "COMMUNICATION": [{"subSkill":"Active Listener",
+                                                "rating":3.5},
+                                                {"subSkill":"Positive Thinking",
+                                                 "rating":4.5}
+                                               ]
+                              }]
+            }],
+            
+  "12430" : [{
+              "primarySkill": [{
+                              "HTML": [   {"subSkill":"Local storage",
+                                          "rating":2},
+                                          {"subSkill":"Session storage",
+                                          "rating":4},
+                                          {"subSkill":"File APIs",
+                                          "rating":3}
+                                      ],
+                                      
+                              "CSS": [    {"subSkill":"Media queries",
+                                          "rating":5},
+                                          {"subSkill":"Responsive",
+                                          "rating":2.5}
+                                      ],
+                              "JAVASCRIPT": [{"subSkill":"Dom Manipulation",
+                                              "rating":3.5},
+                                             {"subSkill":"Ajax",
+                                               "rating":4},
+                                             {"subSkill":"Json",
+                                              "rating":3}
+                                             ] 
+                                            }],
+                              
+              "secondarySkill": [{
+                              "FRAMEWORK": [{"subSkill":"Linear Scripting",
+                                            "rating": 4},
+                                            {"subSkill":"Modular Testing",
+                                            "rating":3},
+                                            {"subSkill":"Keyword Driven Testing",
+                                            "rating":2.5}
+                                            ],
+                              "GOOGLE_APIs": [{"subSkill":"Static Maps",
+                                              "rating":4},
+                                              {"subSkill":"Google Places",
+                                               "rating":3},
+                                              {"subSkill":"Google Earth",
+                                               "rating":4.5}
+                                             ],
+                              "SOFTWARE_DESIGNING": [{"subSkill":"Service-oriented architecture",
+                                                     "rating":5},
+                                                     {"subSkill":"Software development cycle",
+                                                      "rating":4}],
+                              "COMMUNICATION": [{"subSkill":"Active Listener",
+                                                "rating":3.5},
+                                                {"subSkill":"Positive Thinking",
+                                                 "rating":4.5}
+                                               ]
+                              }]
+            }],
+            
+  "13930" : [{
+              "primarySkill": [{
+                              "HTML": [   {"subSkill":"Local storage",
+                                          "rating":2},
+                                          {"subSkill":"Session storage",
+                                          "rating":4},
+                                          {"subSkill":"File APIs",
+                                          "rating":3}
+                                      ],
+                                      
+                              "CSS": [    {"subSkill":"Media queries",
+                                          "rating":5},
+                                          {"subSkill":"Responsive",
+                                          "rating":2.5}
+                                      ],
+                              "JAVASCRIPT": [{"subSkill":"Dom Manipulation",
+                                              "rating":3.5},
+                                             {"subSkill":"Ajax",
+                                               "rating":4},
+                                             {"subSkill":"Json",
+                                              "rating":3}
+                                             ] 
+                                            }],
+                              
+              "secondarySkill": [{
+                              "FRAMEWORK": [{"subSkill":"Linear Scripting",
+                                            "rating": 4},
+                                            {"subSkill":"Modular Testing",
+                                            "rating":3},
+                                            {"subSkill":"Keyword Driven Testing",
+                                            "rating":2.5}
+                                            ],
+                              "GOOGLE_APIs": [{"subSkill":"Static Maps",
+                                              "rating":4},
+                                              {"subSkill":"Google Places",
+                                               "rating":3},
+                                              {"subSkill":"Google Earth",
+                                               "rating":4.5}
+                                             ],
+                              "SOFTWARE_DESIGNING": [{"subSkill":"Service-oriented architecture",
+                                                     "rating":5},
+                                                     {"subSkill":"Software development cycle",
+                                                      "rating":4}],
+                              "COMMUNICATION": [{"subSkill":"Active Listener",
+                                                "rating":3.5},
+                                                {"subSkill":"Positive Thinking",
+                                                 "rating":4.5}
+                                               ]
+                              }]
+            }],
+            
+  "13961" : [{
+              "primarySkill": [{
+                              "HTML": [   {"subSkill":"Local storage",
+                                          "rating":2},
+                                          {"subSkill":"Session storage",
+                                          "rating":4},
+                                          {"subSkill":"File APIs",
+                                          "rating":3}
+                                      ],
+                                      
+                              "CSS": [    {"subSkill":"Media queries",
+                                          "rating":5},
+                                          {"subSkill":"Responsive",
+                                          "rating":2.5}
+                                      ],
+                              "JAVASCRIPT": [{"subSkill":"Dom Manipulation",
+                                              "rating":3.5},
+                                             {"subSkill":"Ajax",
+                                               "rating":4},
+                                             {"subSkill":"Json",
+                                              "rating":3}
+                                             ] 
+                                            }],
+                              
+              "secondarySkill": [{
+                              "FRAMEWORK": [{"subSkill":"Linear Scripting",
+                                            "rating": 4},
+                                            {"subSkill":"Modular Testing",
+                                            "rating":3},
+                                            {"subSkill":"Keyword Driven Testing",
+                                            "rating":2.5}
+                                            ],
+                              "GOOGLE_APIs": [{"subSkill":"Static Maps",
+                                              "rating":4},
+                                              {"subSkill":"Google Places",
+                                               "rating":3},
+                                              {"subSkill":"Google Earth",
+                                               "rating":4.5}
+                                             ],
+                              "SOFTWARE_DESIGNING": [{"subSkill":"Service-oriented architecture",
+                                                     "rating":5},
+                                                     {"subSkill":"Software development cycle",
+                                                      "rating":4}],
+                              "COMMUNICATION": [{"subSkill":"Active Listener",
+                                                "rating":3.5},
+                                                {"subSkill":"Positive Thinking",
+                                                 "rating":4.5}
+                                               ]
+                              }]
+            }],
+            
+  "13982" : [{
+              "primarySkill": [{
+                              "HTML": [   {"subSkill":"Local storage",
+                                          "rating":2},
+                                          {"subSkill":"Session storage",
+                                          "rating":4},
+                                          {"subSkill":"File APIs",
+                                          "rating":3}
+                                      ],
+                                      
+                              "CSS": [    {"subSkill":"Media queries",
+                                          "rating":5},
+                                          {"subSkill":"Responsive",
+                                          "rating":2.5}
+                                      ],
+                              "JAVASCRIPT": [{"subSkill":"Dom Manipulation",
+                                              "rating":3.5},
+                                             {"subSkill":"Ajax",
+                                               "rating":4},
+                                             {"subSkill":"Json",
+                                              "rating":3}
+                                             ] 
+                                            }],
+                              
+              "secondarySkill": [{
+                              "FRAMEWORK": [{"subSkill":"Linear Scripting",
+                                            "rating": 4},
+                                            {"subSkill":"Modular Testing",
+                                            "rating":3},
+                                            {"subSkill":"Keyword Driven Testing",
+                                            "rating":2.5}
+                                            ],
+                              "GOOGLE_APIs": [{"subSkill":"Static Maps",
+                                              "rating":4},
+                                              {"subSkill":"Google Places",
+                                               "rating":3},
+                                              {"subSkill":"Google Earth",
+                                               "rating":4.5}
+                                             ],
+                              "SOFTWARE_DESIGNING": [{"subSkill":"Service-oriented architecture",
+                                                     "rating":5},
+                                                     {"subSkill":"Software development cycle",
+                                                      "rating":4}],
+                              "COMMUNICATION": [{"subSkill":"Active Listener",
+                                                "rating":3.5},
+                                                {"subSkill":"Positive Thinking",
+                                                 "rating":4.5}
+                                               ]
+                              }]
+            }],
+            
+  "13710" : [{
+              "primarySkill": [{
+                              "HTML": [   {"subSkill":"Local storage",
+                                          "rating":2},
+                                          {"subSkill":"Session storage",
+                                          "rating":4},
+                                          {"subSkill":"File APIs",
+                                          "rating":3}
+                                      ],
+                                      
+                              "CSS": [    {"subSkill":"Media queries",
+                                          "rating":5},
+                                          {"subSkill":"Responsive",
+                                          "rating":2.5}
+                                      ],
+                              "JAVASCRIPT": [{"subSkill":"Dom Manipulation",
+                                              "rating":3.5},
+                                             {"subSkill":"Ajax",
+                                               "rating":4},
+                                             {"subSkill":"Json",
+                                              "rating":3}
+                                             ] 
+                                            }],
+                              
+              "secondarySkill": [{
+                              "FRAMEWORK": [{"subSkill":"Linear Scripting",
+                                            "rating": 4},
+                                            {"subSkill":"Modular Testing",
+                                            "rating":3},
+                                            {"subSkill":"Keyword Driven Testing",
+                                            "rating":2.5}
+                                            ],
+                              "GOOGLE_APIs": [{"subSkill":"Static Maps",
+                                              "rating":4},
+                                              {"subSkill":"Google Places",
+                                               "rating":3},
+                                              {"subSkill":"Google Earth",
+                                               "rating":4.5}
+                                             ],
+                              "SOFTWARE_DESIGNING": [{"subSkill":"Service-oriented architecture",
+                                                     "rating":5},
+                                                     {"subSkill":"Software development cycle",
+                                                      "rating":4}],
+                              "COMMUNICATION": [{"subSkill":"Active Listener",
+                                                "rating":3.5},
+                                                {"subSkill":"Positive Thinking",
+                                                 "rating":4.5}
+                                               ]
+                              }]
+            }],
+            
+  "13723" : [{
+              "primarySkill": [{
+                              "HTML": [   {"subSkill":"Local storage",
+                                          "rating":2},
+                                          {"subSkill":"Session storage",
+                                          "rating":4},
+                                          {"subSkill":"File APIs",
+                                          "rating":3}
+                                      ],
+                                      
+                              "CSS": [    {"subSkill":"Media queries",
+                                          "rating":5},
+                                          {"subSkill":"Responsive",
+                                          "rating":2.5}
+                                      ],
+                              "JAVASCRIPT": [{"subSkill":"Dom Manipulation",
+                                              "rating":3.5},
+                                             {"subSkill":"Ajax",
+                                               "rating":4},
+                                             {"subSkill":"Json",
+                                              "rating":3}
+                                             ] 
+                                            }],
+                              
+              "secondarySkill": [{
+                              "FRAMEWORK": [{"subSkill":"Linear Scripting",
+                                            "rating": 4},
+                                            {"subSkill":"Modular Testing",
+                                            "rating":3},
+                                            {"subSkill":"Keyword Driven Testing",
+                                            "rating":2.5}
+                                            ],
+                              "GOOGLE_APIs": [{"subSkill":"Static Maps",
+                                              "rating":4},
+                                              {"subSkill":"Google Places",
+                                               "rating":3},
+                                              {"subSkill":"Google Earth",
+                                               "rating":4.5}
+                                             ],
+                              "SOFTWARE_DESIGNING": [{"subSkill":"Service-oriented architecture",
+                                                     "rating":5},
+                                                     {"subSkill":"Software development cycle",
+                                                      "rating":4}],
+                              "COMMUNICATION": [{"subSkill":"Active Listener",
+                                                "rating":3.5},
+                                                {"subSkill":"Positive Thinking",
+                                                 "rating":4.5}
+                                               ]
+                              }]
+            }],
+            
+  "13770" : [{
+              "primarySkill": [{
+                              "HTML": [   {"subSkill":"Local storage",
+                                          "rating":2},
+                                          {"subSkill":"Session storage",
+                                          "rating":4},
+                                          {"subSkill":"File APIs",
+                                          "rating":3}
+                                      ],
+                                      
+                              "CSS": [    {"subSkill":"Media queries",
+                                          "rating":5},
+                                          {"subSkill":"Responsive",
+                                          "rating":2.5}
+                                      ],
+                              "JAVASCRIPT": [{"subSkill":"Dom Manipulation",
+                                              "rating":3.5},
+                                             {"subSkill":"Ajax",
+                                               "rating":4},
+                                             {"subSkill":"Json",
+                                              "rating":3}
+                                             ] 
+                                            }],
+                              
+              "secondarySkill": [{
+                              "FRAMEWORK": [{"subSkill":"Linear Scripting",
+                                            "rating": 4},
+                                            {"subSkill":"Modular Testing",
+                                            "rating":3},
+                                            {"subSkill":"Keyword Driven Testing",
+                                            "rating":2.5}
+                                            ],
+                              "GOOGLE_APIs": [{"subSkill":"Static Maps",
+                                              "rating":4},
+                                              {"subSkill":"Google Places",
+                                               "rating":3},
+                                              {"subSkill":"Google Earth",
+                                               "rating":4.5}
+                                             ],
+                              "SOFTWARE_DESIGNING": [{"subSkill":"Service-oriented architecture",
+                                                     "rating":5},
+                                                     {"subSkill":"Software development cycle",
+                                                      "rating":4}],
+                              "COMMUNICATION": [{"subSkill":"Active Listener",
+                                                "rating":3.5},
+                                                {"subSkill":"Positive Thinking",
+                                                 "rating":4.5}
+                                               ]
+                              }]
+            }],
+            
+  "13741" : [{
+              "primarySkill": [{
+                              "HTML": [   {"subSkill":"Local storage",
+                                          "rating":2},
+                                          {"subSkill":"Session storage",
+                                          "rating":4},
+                                          {"subSkill":"File APIs",
+                                          "rating":3}
+                                      ],
+                                      
+                              "CSS": [    {"subSkill":"Media queries",
+                                          "rating":5},
+                                          {"subSkill":"Responsive",
+                                          "rating":2.5}
+                                      ],
+                              "JAVASCRIPT": [{"subSkill":"Dom Manipulation",
+                                              "rating":3.5},
+                                             {"subSkill":"Ajax",
+                                               "rating":4},
+                                             {"subSkill":"Json",
+                                              "rating":3}
+                                             ] 
+                                            }],
+                              
+              "secondarySkill": [{
+                              "FRAMEWORK": [{"subSkill":"Linear Scripting",
+                                            "rating": 4},
+                                            {"subSkill":"Modular Testing",
+                                            "rating":3},
+                                            {"subSkill":"Keyword Driven Testing",
+                                            "rating":2.5}
+                                            ],
+                              "GOOGLE_APIs": [{"subSkill":"Static Maps",
+                                              "rating":4},
+                                              {"subSkill":"Google Places",
+                                               "rating":3},
+                                              {"subSkill":"Google Earth",
+                                               "rating":4.5}
+                                             ],
+                              "SOFTWARE_DESIGNING": [{"subSkill":"Service-oriented architecture",
+                                                     "rating":5},
+                                                     {"subSkill":"Software development cycle",
+                                                      "rating":4}],
+                              "COMMUNICATION": [{"subSkill":"Active Listener",
+                                                "rating":3.5},
+                                                {"subSkill":"Positive Thinking",
+                                                 "rating":4.5}
+                                               ]
+                              }]
+            }],
+            
+  "13700" : [{
+              "primarySkill": [{
+                              "HTML": [   {"subSkill":"Local storage",
+                                          "rating":2},
+                                          {"subSkill":"Session storage",
+                                          "rating":4},
+                                          {"subSkill":"File APIs",
+                                          "rating":3}
+                                      ],
+                                      
+                              "CSS": [    {"subSkill":"Media queries",
+                                          "rating":5},
+                                          {"subSkill":"Responsive",
+                                          "rating":2.5}
+                                      ],
+                              "JAVASCRIPT": [{"subSkill":"Dom Manipulation",
+                                              "rating":3.5},
+                                             {"subSkill":"Ajax",
+                                               "rating":4},
+                                             {"subSkill":"Json",
+                                              "rating":3}
+                                             ] 
+                                            }],
+                              
+              "secondarySkill": [{
+                              "FRAMEWORK": [{"subSkill":"Linear Scripting",
+                                            "rating": 4},
+                                            {"subSkill":"Modular Testing",
+                                            "rating":3},
+                                            {"subSkill":"Keyword Driven Testing",
+                                            "rating":2.5}
+                                            ],
+                              "GOOGLE_APIs": [{"subSkill":"Static Maps",
+                                              "rating":4},
+                                              {"subSkill":"Google Places",
+                                               "rating":3},
+                                              {"subSkill":"Google Earth",
+                                               "rating":4.5}
+                                             ],
+                              "SOFTWARE_DESIGNING": [{"subSkill":"Service-oriented architecture",
+                                                     "rating":5},
+                                                     {"subSkill":"Software development cycle",
+                                                      "rating":4}],
+                              "COMMUNICATION": [{"subSkill":"Active Listener",
+                                                "rating":3.5},
+                                                {"subSkill":"Positive Thinking",
+                                                 "rating":4.5}
+                                               ]
+                              }]
+            }],
+            
+  "13719" : [{
+              "primarySkill": [{
+                              "HTML": [   {"subSkill":"Local storage",
+                                          "rating":2},
+                                          {"subSkill":"Session storage",
+                                          "rating":4},
+                                          {"subSkill":"File APIs",
+                                          "rating":3}
+                                      ],
+                                      
+                              "CSS": [    {"subSkill":"Media queries",
+                                          "rating":5},
+                                          {"subSkill":"Responsive",
+                                          "rating":2.5}
+                                      ],
+                              "JAVASCRIPT": [{"subSkill":"Dom Manipulation",
+                                              "rating":3.5},
+                                             {"subSkill":"Ajax",
+                                               "rating":4},
+                                             {"subSkill":"Json",
+                                              "rating":3}
+                                             ] 
+                                            }],
+                              
+              "secondarySkill": [{
+                              "FRAMEWORK": [{"subSkill":"Linear Scripting",
+                                            "rating": 4},
+                                            {"subSkill":"Modular Testing",
+                                            "rating":3},
+                                            {"subSkill":"Keyword Driven Testing",
+                                            "rating":2.5}
+                                            ],
+                              "GOOGLE_APIs": [{"subSkill":"Static Maps",
+                                              "rating":4},
+                                              {"subSkill":"Google Places",
+                                               "rating":3},
+                                              {"subSkill":"Google Earth",
+                                               "rating":4.5}
+                                             ],
+                              "SOFTWARE_DESIGNING": [{"subSkill":"Service-oriented architecture",
+                                                     "rating":5},
+                                                     {"subSkill":"Software development cycle",
+                                                      "rating":4}],
+                              "COMMUNICATION": [{"subSkill":"Active Listener",
+                                                "rating":3.5},
+                                                {"subSkill":"Positive Thinking",
+                                                 "rating":4.5}
+                                               ]
+                              }]
+            }],
+            
+  "13072" : [{
+              "primarySkill": [{
+                              "HTML": [   {"subSkill":"Local storage",
+                                          "rating":2},
+                                          {"subSkill":"Session storage",
+                                          "rating":4},
+                                          {"subSkill":"File APIs",
+                                          "rating":3}
+                                      ],
+                                      
+                              "CSS": [    {"subSkill":"Media queries",
+                                          "rating":5},
+                                          {"subSkill":"Responsive",
+                                          "rating":2.5}
+                                      ],
+                              "JAVASCRIPT": [{"subSkill":"Dom Manipulation",
+                                              "rating":3.5},
+                                             {"subSkill":"Ajax",
+                                               "rating":4},
+                                             {"subSkill":"Json",
+                                              "rating":3}
+                                             ] 
+                                            }],
+                              
+              "secondarySkill": [{
+                              "FRAMEWORK": [{"subSkill":"Linear Scripting",
+                                            "rating": 4},
+                                            {"subSkill":"Modular Testing",
+                                            "rating":3},
+                                            {"subSkill":"Keyword Driven Testing",
+                                            "rating":2.5}
+                                            ],
+                              "GOOGLE_APIs": [{"subSkill":"Static Maps",
+                                              "rating":4},
+                                              {"subSkill":"Google Places",
+                                               "rating":3},
+                                              {"subSkill":"Google Earth",
+                                               "rating":4.5}
+                                             ],
+                              "SOFTWARE_DESIGNING": [{"subSkill":"Service-oriented architecture",
+                                                     "rating":5},
+                                                     {"subSkill":"Software development cycle",
+                                                      "rating":4}],
+                              "COMMUNICATION": [{"subSkill":"Active Listener",
+                                                "rating":3.5},
+                                                {"subSkill":"Positive Thinking",
+                                                 "rating":4.5}
+                                               ]
+                              }]
+            }],
+            
+  "13053" : [{
+              "primarySkill": [{
+                              "HTML": [   {"subSkill":"Local storage",
+                                          "rating":2},
+                                          {"subSkill":"Session storage",
+                                          "rating":4},
+                                          {"subSkill":"File APIs",
+                                          "rating":3}
+                                      ],
+                                      
+                              "CSS": [    {"subSkill":"Media queries",
+                                          "rating":5},
+                                          {"subSkill":"Responsive",
+                                          "rating":2.5}
+                                      ],
+                              "JAVASCRIPT": [{"subSkill":"Dom Manipulation",
+                                              "rating":3.5},
+                                             {"subSkill":"Ajax",
+                                               "rating":4},
+                                             {"subSkill":"Json",
+                                              "rating":3}
+                                             ] 
+                                            }],
+                              
+              "secondarySkill": [{
+                              "FRAMEWORK": [{"subSkill":"Linear Scripting",
+                                            "rating": 4},
+                                            {"subSkill":"Modular Testing",
+                                            "rating":3},
+                                            {"subSkill":"Keyword Driven Testing",
+                                            "rating":2.5}
+                                            ],
+                              "GOOGLE_APIs": [{"subSkill":"Static Maps",
+                                              "rating":4},
+                                              {"subSkill":"Google Places",
+                                               "rating":3},
+                                              {"subSkill":"Google Earth",
+                                               "rating":4.5}
+                                             ],
+                              "SOFTWARE_DESIGNING": [{"subSkill":"Service-oriented architecture",
+                                                     "rating":5},
+                                                     {"subSkill":"Software development cycle",
+                                                      "rating":4}],
+                              "COMMUNICATION": [{"subSkill":"Active Listener",
+                                                "rating":3.5},
+                                                {"subSkill":"Positive Thinking",
+                                                 "rating":4.5}
+                                               ]
+                              }]
+            }],
+            
+  "13456" : [{
+              "primarySkill": [{
+                              "HTML": [   {"subSkill":"Local storage",
+                                          "rating":2},
+                                          {"subSkill":"Session storage",
+                                          "rating":4},
+                                          {"subSkill":"File APIs",
+                                          "rating":3}
+                                      ],
+                                      
+                              "CSS": [    {"subSkill":"Media queries",
+                                          "rating":5},
+                                          {"subSkill":"Responsive",
+                                          "rating":2.5}
+                                      ],
+                              "JAVASCRIPT": [{"subSkill":"Dom Manipulation",
+                                              "rating":3.5},
+                                             {"subSkill":"Ajax",
+                                               "rating":4},
+                                             {"subSkill":"Json",
+                                              "rating":3}
+                                             ] 
+                                            }],
+                              
+              "secondarySkill": [{
+                              "FRAMEWORK": [{"subSkill":"Linear Scripting",
+                                            "rating": 4},
+                                            {"subSkill":"Modular Testing",
+                                            "rating":3},
+                                            {"subSkill":"Keyword Driven Testing",
+                                            "rating":2.5}
+                                            ],
+                              "GOOGLE_APIs": [{"subSkill":"Static Maps",
+                                              "rating":4},
+                                              {"subSkill":"Google Places",
+                                               "rating":3},
+                                              {"subSkill":"Google Earth",
+                                               "rating":4.5}
+                                             ],
+                              "SOFTWARE_DESIGNING": [{"subSkill":"Service-oriented architecture",
+                                                     "rating":5},
+                                                     {"subSkill":"Software development cycle",
+                                                      "rating":4}],
+                              "COMMUNICATION": [{"subSkill":"Active Listener",
+                                                "rating":3.5},
+                                                {"subSkill":"Positive Thinking",
+                                                 "rating":4.5}
+                                               ]
+                              }]
+            }],
+            
+  "13459" : [{
+              "primarySkill": [{
+                              "HTML": [   {"subSkill":"Local storage",
+                                          "rating":2},
+                                          {"subSkill":"Session storage",
+                                          "rating":4},
+                                          {"subSkill":"File APIs",
+                                          "rating":3}
+                                      ],
+                                      
+                              "CSS": [    {"subSkill":"Media queries",
+                                          "rating":5},
+                                          {"subSkill":"Responsive",
+                                          "rating":2.5}
+                                      ],
+                              "JAVASCRIPT": [{"subSkill":"Dom Manipulation",
+                                              "rating":3.5},
+                                             {"subSkill":"Ajax",
+                                               "rating":4},
+                                             {"subSkill":"Json",
+                                              "rating":3}
+                                             ] 
+                                            }],
+                              
+              "secondarySkill": [{
+                              "FRAMEWORK": [{"subSkill":"Linear Scripting",
+                                            "rating": 4},
+                                            {"subSkill":"Modular Testing",
+                                            "rating":3},
+                                            {"subSkill":"Keyword Driven Testing",
+                                            "rating":2.5}
+                                            ],
+                              "GOOGLE_APIs": [{"subSkill":"Static Maps",
+                                              "rating":4},
+                                              {"subSkill":"Google Places",
+                                               "rating":3},
+                                              {"subSkill":"Google Earth",
+                                               "rating":4.5}
+                                             ],
+                              "SOFTWARE_DESIGNING": [{"subSkill":"Service-oriented architecture",
+                                                     "rating":5},
+                                                     {"subSkill":"Software development cycle",
+                                                      "rating":4}],
+                              "COMMUNICATION": [{"subSkill":"Active Listener",
+                                                "rating":3.5},
+                                                {"subSkill":"Positive Thinking",
+                                                 "rating":4.5}
+                                               ]
+                              }]
+            }],
+            
+  "13410" : [{
+              "primarySkill": [{
+                              "HTML": [   {"subSkill":"Local storage",
+                                          "rating":2},
+                                          {"subSkill":"Session storage",
+                                          "rating":4},
+                                          {"subSkill":"File APIs",
+                                          "rating":3}
+                                      ],
+                                      
+                              "CSS": [    {"subSkill":"Media queries",
+                                          "rating":5},
+                                          {"subSkill":"Responsive",
+                                          "rating":2.5}
+                                      ],
+                              "JAVASCRIPT": [{"subSkill":"Dom Manipulation",
+                                              "rating":3.5},
+                                             {"subSkill":"Ajax",
+                                               "rating":4},
+                                             {"subSkill":"Json",
+                                              "rating":3}
+                                             ] 
+                                            }],
+                              
+              "secondarySkill": [{
+                              "FRAMEWORK": [{"subSkill":"Linear Scripting",
+                                            "rating": 4},
+                                            {"subSkill":"Modular Testing",
+                                            "rating":3},
+                                            {"subSkill":"Keyword Driven Testing",
+                                            "rating":2.5}
+                                            ],
+                              "GOOGLE_APIs": [{"subSkill":"Static Maps",
+                                              "rating":4},
+                                              {"subSkill":"Google Places",
+                                               "rating":3},
+                                              {"subSkill":"Google Earth",
+                                               "rating":4.5}
+                                             ],
+                              "SOFTWARE_DESIGNING": [{"subSkill":"Service-oriented architecture",
+                                                     "rating":5},
+                                                     {"subSkill":"Software development cycle",
+                                                      "rating":4}],
+                              "COMMUNICATION": [{"subSkill":"Active Listener",
+                                                "rating":3.5},
+                                                {"subSkill":"Positive Thinking",
+                                                 "rating":4.5}
+                                               ]
+                              }]
+            }],
+            
+  "13430" : [{
+              "primarySkill": [{
+                              "HTML": [   {"subSkill":"Local storage",
+                                          "rating":2},
+                                          {"subSkill":"Session storage",
+                                          "rating":4},
+                                          {"subSkill":"File APIs",
+                                          "rating":3}
+                                      ],
+                                      
+                              "CSS": [    {"subSkill":"Media queries",
+                                          "rating":5},
+                                          {"subSkill":"Responsive",
+                                          "rating":2.5}
+                                      ],
+                              "JAVASCRIPT": [{"subSkill":"Dom Manipulation",
+                                              "rating":3.5},
+                                             {"subSkill":"Ajax",
+                                               "rating":4},
+                                             {"subSkill":"Json",
+                                              "rating":3}
+                                             ] 
+                                            }],
+                              
+              "secondarySkill": [{
+                              "FRAMEWORK": [{"subSkill":"Linear Scripting",
+                                            "rating": 4},
+                                            {"subSkill":"Modular Testing",
+                                            "rating":3},
+                                            {"subSkill":"Keyword Driven Testing",
+                                            "rating":2.5}
+                                            ],
+                              "GOOGLE_APIs": [{"subSkill":"Static Maps",
+                                              "rating":4},
+                                              {"subSkill":"Google Places",
+                                               "rating":3},
+                                              {"subSkill":"Google Earth",
+                                               "rating":4.5}
+                                             ],
+                              "SOFTWARE_DESIGNING": [{"subSkill":"Service-oriented architecture",
+                                                     "rating":5},
+                                                     {"subSkill":"Software development cycle",
+                                                      "rating":4}],
+                              "COMMUNICATION": [{"subSkill":"Active Listener",
+                                                "rating":3.5},
+                                                {"subSkill":"Positive Thinking",
+                                                 "rating":4.5}
+                                               ]
+                              }]
+            }],
+            
+  "13320" : [{
+              "primarySkill": [{
+                              "HTML": [   {"subSkill":"Local storage",
+                                          "rating":2},
+                                          {"subSkill":"Session storage",
+                                          "rating":4},
+                                          {"subSkill":"File APIs",
+                                          "rating":3}
+                                      ],
+                                      
+                              "CSS": [    {"subSkill":"Media queries",
+                                          "rating":5},
+                                          {"subSkill":"Responsive",
+                                          "rating":2.5}
+                                      ],
+                              "JAVASCRIPT": [{"subSkill":"Dom Manipulation",
+                                              "rating":3.5},
+                                             {"subSkill":"Ajax",
+                                               "rating":4},
+                                             {"subSkill":"Json",
+                                              "rating":3}
+                                             ] 
+                                            }],
+                              
+              "secondarySkill": [{
+                              "FRAMEWORK": [{"subSkill":"Linear Scripting",
+                                            "rating": 4},
+                                            {"subSkill":"Modular Testing",
+                                            "rating":3},
+                                            {"subSkill":"Keyword Driven Testing",
+                                            "rating":2.5}
+                                            ],
+                              "GOOGLE_APIs": [{"subSkill":"Static Maps",
+                                              "rating":4},
+                                              {"subSkill":"Google Places",
+                                               "rating":3},
+                                              {"subSkill":"Google Earth",
+                                               "rating":4.5}
+                                             ],
+                              "SOFTWARE_DESIGNING": [{"subSkill":"Service-oriented architecture",
+                                                     "rating":5},
+                                                     {"subSkill":"Software development cycle",
+                                                      "rating":4}],
+                              "COMMUNICATION": [{"subSkill":"Active Listener",
+                                                "rating":3.5},
+                                                {"subSkill":"Positive Thinking",
+                                                 "rating":4.5}
+                                               ]
+                              }]
+            }],
+            
+  "13330" : [{
+              "primarySkill": [{
+                              "HTML": [   {"subSkill":"Local storage",
+                                          "rating":2},
+                                          {"subSkill":"Session storage",
+                                          "rating":4},
+                                          {"subSkill":"File APIs",
+                                          "rating":3}
+                                      ],
+                                      
+                              "CSS": [    {"subSkill":"Media queries",
+                                          "rating":5},
+                                          {"subSkill":"Responsive",
+                                          "rating":2.5}
+                                      ],
+                              "JAVASCRIPT": [{"subSkill":"Dom Manipulation",
+                                              "rating":3.5},
+                                             {"subSkill":"Ajax",
+                                               "rating":4},
+                                             {"subSkill":"Json",
+                                              "rating":3}
+                                             ] 
+                                            }],
+                              
+              "secondarySkill": [{
+                              "FRAMEWORK": [{"subSkill":"Linear Scripting",
+                                            "rating": 4},
+                                            {"subSkill":"Modular Testing",
+                                            "rating":3},
+                                            {"subSkill":"Keyword Driven Testing",
+                                            "rating":2.5}
+                                            ],
+                              "GOOGLE_APIs": [{"subSkill":"Static Maps",
+                                              "rating":4},
+                                              {"subSkill":"Google Places",
+                                               "rating":3},
+                                              {"subSkill":"Google Earth",
+                                               "rating":4.5}
+                                             ],
+                              "SOFTWARE_DESIGNING": [{"subSkill":"Service-oriented architecture",
+                                                     "rating":5},
+                                                     {"subSkill":"Software development cycle",
+                                                      "rating":4}],
+                              "COMMUNICATION": [{"subSkill":"Active Listener",
+                                                "rating":3.5},
+                                                {"subSkill":"Positive Thinking",
+                                                 "rating":4.5}
+                                               ]
+                              }]
+            }],
+            
+  "13156" : [{
+              "primarySkill": [{
+                              "HTML": [   {"subSkill":"Local storage",
+                                          "rating":2},
+                                          {"subSkill":"Session storage",
+                                          "rating":4},
+                                          {"subSkill":"File APIs",
+                                          "rating":3}
+                                      ],
+                                      
+                              "CSS": [    {"subSkill":"Media queries",
+                                          "rating":5},
+                                          {"subSkill":"Responsive",
+                                          "rating":2.5}
+                                      ],
+                              "JAVASCRIPT": [{"subSkill":"Dom Manipulation",
+                                              "rating":3.5},
+                                             {"subSkill":"Ajax",
+                                               "rating":4},
+                                             {"subSkill":"Json",
+                                              "rating":3}
+                                             ] 
+                                            }],
+                              
+              "secondarySkill": [{
+                              "FRAMEWORK": [{"subSkill":"Linear Scripting",
+                                            "rating": 4},
+                                            {"subSkill":"Modular Testing",
+                                            "rating":3},
+                                            {"subSkill":"Keyword Driven Testing",
+                                            "rating":2.5}
+                                            ],
+                              "GOOGLE_APIs": [{"subSkill":"Static Maps",
+                                              "rating":4},
+                                              {"subSkill":"Google Places",
+                                               "rating":3},
+                                              {"subSkill":"Google Earth",
+                                               "rating":4.5}
+                                             ],
+                              "SOFTWARE_DESIGNING": [{"subSkill":"Service-oriented architecture",
+                                                     "rating":5},
+                                                     {"subSkill":"Software development cycle",
+                                                      "rating":4}],
+                              "COMMUNICATION": [{"subSkill":"Active Listener",
+                                                "rating":3.5},
+                                                {"subSkill":"Positive Thinking",
+                                                 "rating":4.5}
+                                               ]
+                              }]
+            }],
+            
+  "13110" : [{
+              "primarySkill": [{
+                              "HTML": [   {"subSkill":"Local storage",
+                                          "rating":2},
+                                          {"subSkill":"Session storage",
+                                          "rating":4},
+                                          {"subSkill":"File APIs",
+                                          "rating":3}
+                                      ],
+                                      
+                              "CSS": [    {"subSkill":"Media queries",
+                                          "rating":5},
+                                          {"subSkill":"Responsive",
+                                          "rating":2.5}
+                                      ],
+                              "JAVASCRIPT": [{"subSkill":"Dom Manipulation",
+                                              "rating":3.5},
+                                             {"subSkill":"Ajax",
+                                               "rating":4},
+                                             {"subSkill":"Json",
+                                              "rating":3}
+                                             ] 
+                                            }],
+                              
+              "secondarySkill": [{
+                              "FRAMEWORK": [{"subSkill":"Linear Scripting",
+                                            "rating": 4},
+                                            {"subSkill":"Modular Testing",
+                                            "rating":3},
+                                            {"subSkill":"Keyword Driven Testing",
+                                            "rating":2.5}
+                                            ],
+                              "GOOGLE_APIs": [{"subSkill":"Static Maps",
+                                              "rating":4},
+                                              {"subSkill":"Google Places",
+                                               "rating":3},
+                                              {"subSkill":"Google Earth",
+                                               "rating":4.5}
+                                             ],
+                              "SOFTWARE_DESIGNING": [{"subSkill":"Service-oriented architecture",
+                                                     "rating":5},
+                                                     {"subSkill":"Software development cycle",
+                                                      "rating":4}],
+                              "COMMUNICATION": [{"subSkill":"Active Listener",
+                                                "rating":3.5},
+                                                {"subSkill":"Positive Thinking",
+                                                 "rating":4.5}
+                                               ]
+                              }]
+            }],
+            
+  "13109" : [{
+              "primarySkill": [{
+                              "HTML": [   {"subSkill":"Local storage",
+                                          "rating":2},
+                                          {"subSkill":"Session storage",
+                                          "rating":4},
+                                          {"subSkill":"File APIs",
+                                          "rating":3}
+                                      ],
+                                      
+                              "CSS": [    {"subSkill":"Media queries",
+                                          "rating":5},
+                                          {"subSkill":"Responsive",
+                                          "rating":2.5}
+                                      ],
+                              "JAVASCRIPT": [{"subSkill":"Dom Manipulation",
+                                              "rating":3.5},
+                                             {"subSkill":"Ajax",
+                                               "rating":4},
+                                             {"subSkill":"Json",
+                                              "rating":3}
+                                             ] 
+                                            }],
+                              
+              "secondarySkill": [{
+                              "FRAMEWORK": [{"subSkill":"Linear Scripting",
+                                            "rating": 4},
+                                            {"subSkill":"Modular Testing",
+                                            "rating":3},
+                                            {"subSkill":"Keyword Driven Testing",
+                                            "rating":2.5}
+                                            ],
+                              "GOOGLE_APIs": [{"subSkill":"Static Maps",
+                                              "rating":4},
+                                              {"subSkill":"Google Places",
+                                               "rating":3},
+                                              {"subSkill":"Google Earth",
+                                               "rating":4.5}
+                                             ],
+                              "SOFTWARE_DESIGNING": [{"subSkill":"Service-oriented architecture",
+                                                     "rating":5},
+                                                     {"subSkill":"Software development cycle",
+                                                      "rating":4}],
+                              "COMMUNICATION": [{"subSkill":"Active Listener",
+                                                "rating":3.5},
+                                                {"subSkill":"Positive Thinking",
+                                                 "rating":4.5}
+                                               ]
+                              }]
+            }],
+            
+  "13128" : [{
+              "primarySkill": [{
+                              "HTML": [   {"subSkill":"Local storage",
+                                          "rating":2},
+                                          {"subSkill":"Session storage",
+                                          "rating":4},
+                                          {"subSkill":"File APIs",
+                                          "rating":3}
+                                      ],
+                                      
+                              "CSS": [    {"subSkill":"Media queries",
+                                          "rating":5},
+                                          {"subSkill":"Responsive",
+                                          "rating":2.5}
+                                      ],
+                              "JAVASCRIPT": [{"subSkill":"Dom Manipulation",
+                                              "rating":3.5},
+                                             {"subSkill":"Ajax",
+                                               "rating":4},
+                                             {"subSkill":"Json",
+                                              "rating":3}
+                                             ] 
+                                            }],
+                              
+              "secondarySkill": [{
+                              "FRAMEWORK": [{"subSkill":"Linear Scripting",
+                                            "rating": 4},
+                                            {"subSkill":"Modular Testing",
+                                            "rating":3},
+                                            {"subSkill":"Keyword Driven Testing",
+                                            "rating":2.5}
+                                            ],
+                              "GOOGLE_APIs": [{"subSkill":"Static Maps",
+                                              "rating":4},
+                                              {"subSkill":"Google Places",
+                                               "rating":3},
+                                              {"subSkill":"Google Earth",
+                                               "rating":4.5}
+                                             ],
+                              "SOFTWARE_DESIGNING": [{"subSkill":"Service-oriented architecture",
+                                                     "rating":5},
+                                                     {"subSkill":"Software development cycle",
+                                                      "rating":4}],
+                              "COMMUNICATION": [{"subSkill":"Active Listener",
+                                                "rating":3.5},
+                                                {"subSkill":"Positive Thinking",
+                                                 "rating":4.5}
+                                               ]
+                              }]
+            }],
+            
+  "13229" : [{
+              "primarySkill": [{
+                              "HTML": [   {"subSkill":"Local storage",
+                                          "rating":2},
+                                          {"subSkill":"Session storage",
+                                          "rating":4},
+                                          {"subSkill":"File APIs",
+                                          "rating":3}
+                                      ],
+                                      
+                              "CSS": [    {"subSkill":"Media queries",
+                                          "rating":5},
+                                          {"subSkill":"Responsive",
+                                          "rating":2.5}
+                                      ],
+                              "JAVASCRIPT": [{"subSkill":"Dom Manipulation",
+                                              "rating":3.5},
+                                             {"subSkill":"Ajax",
+                                               "rating":4},
+                                             {"subSkill":"Json",
+                                              "rating":3}
+                                             ] 
+                                            }],
+                              
+              "secondarySkill": [{
+                              "FRAMEWORK": [{"subSkill":"Linear Scripting",
+                                            "rating": 4},
+                                            {"subSkill":"Modular Testing",
+                                            "rating":3},
+                                            {"subSkill":"Keyword Driven Testing",
+                                            "rating":2.5}
+                                            ],
+                              "GOOGLE_APIs": [{"subSkill":"Static Maps",
+                                              "rating":4},
+                                              {"subSkill":"Google Places",
+                                               "rating":3},
+                                              {"subSkill":"Google Earth",
+                                               "rating":4.5}
+                                             ],
+                              "SOFTWARE_DESIGNING": [{"subSkill":"Service-oriented architecture",
+                                                     "rating":5},
+                                                     {"subSkill":"Software development cycle",
+                                                      "rating":4}],
+                              "COMMUNICATION": [{"subSkill":"Active Listener",
+                                                "rating":3.5},
+                                                {"subSkill":"Positive Thinking",
+                                                 "rating":4.5}
+                                               ]
+                              }]
+            }],
+            
+  "13209" : [{
+              "primarySkill": [{
+                              "HTML": [   {"subSkill":"Local storage",
+                                          "rating":2},
+                                          {"subSkill":"Session storage",
+                                          "rating":4},
+                                          {"subSkill":"File APIs",
+                                          "rating":3}
+                                      ],
+                                      
+                              "CSS": [    {"subSkill":"Media queries",
+                                          "rating":5},
+                                          {"subSkill":"Responsive",
+                                          "rating":2.5}
+                                      ],
+                              "JAVASCRIPT": [{"subSkill":"Dom Manipulation",
+                                              "rating":3.5},
+                                             {"subSkill":"Ajax",
+                                               "rating":4},
+                                             {"subSkill":"Json",
+                                              "rating":3}
+                                             ] 
+                                            }],
+                              
+              "secondarySkill": [{
+                              "FRAMEWORK": [{"subSkill":"Linear Scripting",
+                                            "rating": 4},
+                                            {"subSkill":"Modular Testing",
+                                            "rating":3},
+                                            {"subSkill":"Keyword Driven Testing",
+                                            "rating":2.5}
+                                            ],
+                              "GOOGLE_APIs": [{"subSkill":"Static Maps",
+                                              "rating":4},
+                                              {"subSkill":"Google Places",
+                                               "rating":3},
+                                              {"subSkill":"Google Earth",
+                                               "rating":4.5}
+                                             ],
+                              "SOFTWARE_DESIGNING": [{"subSkill":"Service-oriented architecture",
+                                                     "rating":5},
+                                                     {"subSkill":"Software development cycle",
+                                                      "rating":4}],
+                              "COMMUNICATION": [{"subSkill":"Active Listener",
+                                                "rating":3.5},
+                                                {"subSkill":"Positive Thinking",
+                                                 "rating":4.5}
+                                               ]
+                              }]
+            }],
+            
+  "13256" : [{
+              "primarySkill": [{
+                              "HTML": [   {"subSkill":"Local storage",
+                                          "rating":2},
+                                          {"subSkill":"Session storage",
+                                          "rating":4},
+                                          {"subSkill":"File APIs",
+                                          "rating":3}
+                                      ],
+                                      
+                              "CSS": [    {"subSkill":"Media queries",
+                                          "rating":5},
+                                          {"subSkill":"Responsive",
+                                          "rating":2.5}
+                                      ],
+                              "JAVASCRIPT": [{"subSkill":"Dom Manipulation",
+                                              "rating":3.5},
+                                             {"subSkill":"Ajax",
+                                               "rating":4},
+                                             {"subSkill":"Json",
+                                              "rating":3}
+                                             ] 
+                                            }],
+                              
+              "secondarySkill": [{
+                              "FRAMEWORK": [{"subSkill":"Linear Scripting",
+                                            "rating": 4},
+                                            {"subSkill":"Modular Testing",
+                                            "rating":3},
+                                            {"subSkill":"Keyword Driven Testing",
+                                            "rating":2.5}
+                                            ],
+                              "GOOGLE_APIs": [{"subSkill":"Static Maps",
+                                              "rating":4},
+                                              {"subSkill":"Google Places",
+                                               "rating":3},
+                                              {"subSkill":"Google Earth",
+                                               "rating":4.5}
+                                             ],
+                              "SOFTWARE_DESIGNING": [{"subSkill":"Service-oriented architecture",
+                                                     "rating":5},
+                                                     {"subSkill":"Software development cycle",
+                                                      "rating":4}],
+                              "COMMUNICATION": [{"subSkill":"Active Listener",
+                                                "rating":3.5},
+                                                {"subSkill":"Positive Thinking",
+                                                 "rating":4.5}
+                                               ]
+                              }]
+            }],
+            
+  "13610" : [{
+              "primarySkill": [{
+                              "HTML": [   {"subSkill":"Local storage",
+                                          "rating":2},
+                                          {"subSkill":"Session storage",
+                                          "rating":4},
+                                          {"subSkill":"File APIs",
+                                          "rating":3}
+                                      ],
+                                      
+                              "CSS": [    {"subSkill":"Media queries",
+                                          "rating":5},
+                                          {"subSkill":"Responsive",
+                                          "rating":2.5}
+                                      ],
+                              "JAVASCRIPT": [{"subSkill":"Dom Manipulation",
+                                              "rating":3.5},
+                                             {"subSkill":"Ajax",
+                                               "rating":4},
+                                             {"subSkill":"Json",
+                                              "rating":3}
+                                             ] 
+                                            }],
+                              
+              "secondarySkill": [{
+                              "FRAMEWORK": [{"subSkill":"Linear Scripting",
+                                            "rating": 4},
+                                            {"subSkill":"Modular Testing",
+                                            "rating":3},
+                                            {"subSkill":"Keyword Driven Testing",
+                                            "rating":2.5}
+                                            ],
+                              "GOOGLE_APIs": [{"subSkill":"Static Maps",
+                                              "rating":4},
+                                              {"subSkill":"Google Places",
+                                               "rating":3},
+                                              {"subSkill":"Google Earth",
+                                               "rating":4.5}
+                                             ],
+                              "SOFTWARE_DESIGNING": [{"subSkill":"Service-oriented architecture",
+                                                     "rating":5},
+                                                     {"subSkill":"Software development cycle",
+                                                      "rating":4}],
+                              "COMMUNICATION": [{"subSkill":"Active Listener",
+                                                "rating":3.5},
+                                                {"subSkill":"Positive Thinking",
+                                                 "rating":4.5}
+                                               ]
+                              }]
+            }],
+            
+  "13681" : [{
+              "primarySkill": [{
+                              "HTML": [   {"subSkill":"Local storage",
+                                          "rating":2},
+                                          {"subSkill":"Session storage",
+                                          "rating":4},
+                                          {"subSkill":"File APIs",
+                                          "rating":3}
+                                      ],
+                                      
+                              "CSS": [    {"subSkill":"Media queries",
+                                          "rating":5},
+                                          {"subSkill":"Responsive",
+                                          "rating":2.5}
+                                      ],
+                              "JAVASCRIPT": [{"subSkill":"Dom Manipulation",
+                                              "rating":3.5},
+                                             {"subSkill":"Ajax",
+                                               "rating":4},
+                                             {"subSkill":"Json",
+                                              "rating":3}
+                                             ] 
+                                            }],
+                              
+              "secondarySkill": [{
+                              "FRAMEWORK": [{"subSkill":"Linear Scripting",
+                                            "rating": 4},
+                                            {"subSkill":"Modular Testing",
+                                            "rating":3},
+                                            {"subSkill":"Keyword Driven Testing",
+                                            "rating":2.5}
+                                            ],
+                              "GOOGLE_APIs": [{"subSkill":"Static Maps",
+                                              "rating":4},
+                                              {"subSkill":"Google Places",
+                                               "rating":3},
+                                              {"subSkill":"Google Earth",
+                                               "rating":4.5}
+                                             ],
+                              "SOFTWARE_DESIGNING": [{"subSkill":"Service-oriented architecture",
+                                                     "rating":5},
+                                                     {"subSkill":"Software development cycle",
+                                                      "rating":4}],
+                              "COMMUNICATION": [{"subSkill":"Active Listener",
+                                                "rating":3.5},
+                                                {"subSkill":"Positive Thinking",
+                                                 "rating":4.5}
+                                               ]
+                              }]
+            }],
+            
+  "13671" : [{
+              "primarySkill": [{
+                              "HTML": [   {"subSkill":"Local storage",
+                                          "rating":2},
+                                          {"subSkill":"Session storage",
+                                          "rating":4},
+                                          {"subSkill":"File APIs",
+                                          "rating":3}
+                                      ],
+                                      
+                              "CSS": [    {"subSkill":"Media queries",
+                                          "rating":5},
+                                          {"subSkill":"Responsive",
+                                          "rating":2.5}
+                                      ],
+                              "JAVASCRIPT": [{"subSkill":"Dom Manipulation",
+                                              "rating":3.5},
+                                             {"subSkill":"Ajax",
+                                               "rating":4},
+                                             {"subSkill":"Json",
+                                              "rating":3}
+                                             ] 
+                                            }],
+                              
+              "secondarySkill": [{
+                              "FRAMEWORK": [{"subSkill":"Linear Scripting",
+                                            "rating": 4},
+                                            {"subSkill":"Modular Testing",
+                                            "rating":3},
+                                            {"subSkill":"Keyword Driven Testing",
+                                            "rating":2.5}
+                                            ],
+                              "GOOGLE_APIs": [{"subSkill":"Static Maps",
+                                              "rating":4},
+                                              {"subSkill":"Google Places",
+                                               "rating":3},
+                                              {"subSkill":"Google Earth",
+                                               "rating":4.5}
+                                             ],
+                              "SOFTWARE_DESIGNING": [{"subSkill":"Service-oriented architecture",
+                                                     "rating":5},
+                                                     {"subSkill":"Software development cycle",
+                                                      "rating":4}],
+                              "COMMUNICATION": [{"subSkill":"Active Listener",
+                                                "rating":3.5},
+                                                {"subSkill":"Positive Thinking",
+                                                 "rating":4.5}
+                                               ]
+                              }]
+            }],
+            
+  "13573" : [{
+              "primarySkill": [{
+                              "HTML": [   {"subSkill":"Local storage",
+                                          "rating":2},
+                                          {"subSkill":"Session storage",
+                                          "rating":4},
+                                          {"subSkill":"File APIs",
+                                          "rating":3}
+                                      ],
+                                      
+                              "CSS": [    {"subSkill":"Media queries",
+                                          "rating":5},
+                                          {"subSkill":"Responsive",
+                                          "rating":2.5}
+                                      ],
+                              "JAVASCRIPT": [{"subSkill":"Dom Manipulation",
+                                              "rating":3.5},
+                                             {"subSkill":"Ajax",
+                                               "rating":4},
+                                             {"subSkill":"Json",
+                                              "rating":3}
+                                             ] 
+                                            }],
+                              
+              "secondarySkill": [{
+                              "FRAMEWORK": [{"subSkill":"Linear Scripting",
+                                            "rating": 4},
+                                            {"subSkill":"Modular Testing",
+                                            "rating":3},
+                                            {"subSkill":"Keyword Driven Testing",
+                                            "rating":2.5}
+                                            ],
+                              "GOOGLE_APIs": [{"subSkill":"Static Maps",
+                                              "rating":4},
+                                              {"subSkill":"Google Places",
+                                               "rating":3},
+                                              {"subSkill":"Google Earth",
+                                               "rating":4.5}
+                                             ],
+                              "SOFTWARE_DESIGNING": [{"subSkill":"Service-oriented architecture",
+                                                     "rating":5},
+                                                     {"subSkill":"Software development cycle",
+                                                      "rating":4}],
+                              "COMMUNICATION": [{"subSkill":"Active Listener",
+                                                "rating":3.5},
+                                                {"subSkill":"Positive Thinking",
+                                                 "rating":4.5}
+                                               ]
+                              }]
+            }],
+            
+  "13572" : [{
+              "primarySkill": [{
+                              "HTML": [   {"subSkill":"Local storage",
+                                          "rating":2},
+                                          {"subSkill":"Session storage",
+                                          "rating":4},
+                                          {"subSkill":"File APIs",
+                                          "rating":3}
+                                      ],
+                                      
+                              "CSS": [    {"subSkill":"Media queries",
+                                          "rating":5},
+                                          {"subSkill":"Responsive",
+                                          "rating":2.5}
+                                      ],
+                              "JAVASCRIPT": [{"subSkill":"Dom Manipulation",
+                                              "rating":3.5},
+                                             {"subSkill":"Ajax",
+                                               "rating":4},
+                                             {"subSkill":"Json",
+                                              "rating":3}
+                                             ] 
+                                            }],
+                              
+              "secondarySkill": [{
+                              "FRAMEWORK": [{"subSkill":"Linear Scripting",
+                                            "rating": 4},
+                                            {"subSkill":"Modular Testing",
+                                            "rating":3},
+                                            {"subSkill":"Keyword Driven Testing",
+                                            "rating":2.5}
+                                            ],
+                              "GOOGLE_APIs": [{"subSkill":"Static Maps",
+                                              "rating":4},
+                                              {"subSkill":"Google Places",
+                                               "rating":3},
+                                              {"subSkill":"Google Earth",
+                                               "rating":4.5}
+                                             ],
+                              "SOFTWARE_DESIGNING": [{"subSkill":"Service-oriented architecture",
+                                                     "rating":5},
+                                                     {"subSkill":"Software development cycle",
+                                                      "rating":4}],
+                              "COMMUNICATION": [{"subSkill":"Active Listener",
+                                                "rating":3.5},
+                                                {"subSkill":"Positive Thinking",
+                                                 "rating":4.5}
+                                               ]
+                              }]
+            }],
+            
+  "13574" : [{
+              "primarySkill": [{
+                              "HTML": [   {"subSkill":"Local storage",
+                                          "rating":2},
+                                          {"subSkill":"Session storage",
+                                          "rating":4},
+                                          {"subSkill":"File APIs",
+                                          "rating":3}
+                                      ],
+                                      
+                              "CSS": [    {"subSkill":"Media queries",
+                                          "rating":5},
+                                          {"subSkill":"Responsive",
+                                          "rating":2.5}
+                                      ],
+                              "JAVASCRIPT": [{"subSkill":"Dom Manipulation",
+                                              "rating":3.5},
+                                             {"subSkill":"Ajax",
+                                               "rating":4},
+                                             {"subSkill":"Json",
+                                              "rating":3}
+                                             ] 
+                                            }],
+                              
+              "secondarySkill": [{
+                              "FRAMEWORK": [{"subSkill":"Linear Scripting",
+                                            "rating": 4},
+                                            {"subSkill":"Modular Testing",
+                                            "rating":3},
+                                            {"subSkill":"Keyword Driven Testing",
+                                            "rating":2.5}
+                                            ],
+                              "GOOGLE_APIs": [{"subSkill":"Static Maps",
+                                              "rating":4},
+                                              {"subSkill":"Google Places",
+                                               "rating":3},
+                                              {"subSkill":"Google Earth",
+                                               "rating":4.5}
+                                             ],
+                              "SOFTWARE_DESIGNING": [{"subSkill":"Service-oriented architecture",
+                                                     "rating":5},
+                                                     {"subSkill":"Software development cycle",
+                                                      "rating":4}],
+                              "COMMUNICATION": [{"subSkill":"Active Listener",
+                                                "rating":3.5},
+                                                {"subSkill":"Positive Thinking",
+                                                 "rating":4.5}
+                                               ]
+                              }]
+            }]
+  }	
