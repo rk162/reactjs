@@ -17,6 +17,23 @@ import firebase from 'firebase';
     messagingSenderId: "803841740315"
   };
   firebase.initializeApp(config);
+  if(firebase){
+    console.log('connection successfull')
+  } else console.log('database connection unsuccessfull');
+
+//   firebase.auth().signInWithCustomToken().catch(function(error) {
+//     // Handle Errors here.
+//     var errorCode = error.code;
+//     var errorMessage = error.message;
+//     // ...
+//   });
+//   firebase.auth().onAuthStateChanged(function(user) {
+//   if (user) {
+//     // User is signed in.
+//   } else {
+//     // No user is signed in.
+//   }
+// });
 
 ReactDOM.render(<App />, document.getElementById('root'));
 //registerServiceWorker();
