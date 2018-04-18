@@ -1,0 +1,11 @@
+#react-container {
+    color: rgb(255, 196, 0);
+    transition: all .5s;
+    background: linear-gradient(to bottom, white, rgb(158, 235, 135));
+}
+
+#image {
+    background: url('./assets/images/webpack.png');
+    height: 500px;
+    width: 500px;
+}
